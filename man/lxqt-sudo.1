@@ -1,0 +1,17 @@
+.TH lxqt-sudo 1 "" "" "LXQt\ Module"
+.SH NAME
+\fBlxqt-sudo\fR \- execute a command as privileged user
+.SH SYNOPSIS
+\fBlxqt-sudo\fR \fIcommand\fR [\fIarguments\fR]
+.SH DESCRIPTION
+\fBlxqt-sudo\fR is a graphical QT frontend for plain \fBsudo(8)\fR (for requesting optional password in GUI fashion).
+.br
+When invoked it simply spawns child \fIsudo\fR process with requested \fIcommand\fR (and \fIarguments\fR). If \fIsudo\fR requests user's password,
+the GUI password dialog is shown and (after submit) the password is provided to \fIsudo\fR.
+.SH "REPORTING BUGS"
+Report bugs to https://github.com/lxde/lxqt/issues
+.SH "SEE ALSO"
+\fBsudo(8)\fR
+.SH AUTHOR
+This manual page was created by \fBPalo Kisa\fR \fI<palo.kisa@gmail.com>\fR
+for \fBLXQt\fR project.
