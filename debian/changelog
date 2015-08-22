@@ -1,4 +1,4 @@
-lxqt-sudo (0.9.0-1) unstable; urgency=low
+lxqt-sudo (0.9.0+20150822-1) unstable; urgency=low
 
   * Initial release (Closes:#795801)
 
