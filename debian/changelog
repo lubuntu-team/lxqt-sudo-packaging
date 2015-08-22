@@ -1,5 +1,5 @@
-lxqt-sudo (0.1.0-1) unstable; urgency=low
+lxqt-sudo (0.9.0-1) unstable; urgency=low
 
-  * Initial release (Closes:#)
+  * Initial release (Closes:#795801)
 
- -- Alf Gaida <agaida@siduction.org>  Thu, 04 Jun 2015 01:26:21 +0200
+ -- ChangZhuo Chen (陳昌倬) <czchen@gmail.com>  Sat, 22 Aug 2015 10:32:52 +0800
