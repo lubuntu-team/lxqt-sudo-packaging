@@ -24,10 +24,12 @@ Package: lxqt-sudo
 Architecture: any
 Depends: ${misc:Depends},
          ${shlibs:Depends},
-Description: Sudo for LXQt
- The LXQt sudo wrapper
- .
- This package contain the LXQt sudo wrapper.
+Description: Graphical QT frontend for plain sudo
+ lxqt-sudo is a graphical QT frontend for plain sudo(8) (for requesting
+ optional password in GUI fashion).  When  invoked it simply spawns child sudo
+ process with requested command (and arguments). If sudo requests user's
+ password, the GUI password dialog is shown and (after submit) the password is
+ provided to sudo.
 
 Package: lxqt-sudo-dbg
 Architecture: any
@@ -36,9 +38,11 @@ Priority: extra
 Depends: ${misc:Depends},
          ${shlibs:Depends},
          lxqt-sudo (= ${binary:Version}),
-Description: Sudo for LXQt (debug symbols)
- The LXQt sudo wrapper
- .
- This package contain the LXQt sudo wrapper.
+Description: Graphical QT frontend for plain sudo (debug symbols)
+ lxqt-sudo is a graphical QT frontend for plain sudo(8) (for requesting
+ optional password in GUI fashion).  When  invoked it simply spawns child sudo
+ process with requested command (and arguments). If sudo requests user's
+ password, the GUI password dialog is shown and (after submit) the password is
+ provided to sudo.
  .
  This package contains debug symbols for lxqt-sudo.
