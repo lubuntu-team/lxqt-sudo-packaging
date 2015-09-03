@@ -1,0 +1,7 @@
+/*.debhelper
+/*.log
+/*.substvars
+/files
+
+/lxqt-sudo/
+/lxqt-sudo-dbg/

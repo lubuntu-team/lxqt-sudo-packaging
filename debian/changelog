@@ -1,3 +1,12 @@
+lxqt-sudo (0.9.0+20150822-2) UNRELEASED; urgency=medium
+
+  * Fixed .gitignore
+  * Added upstream signing key and use it in watch file 
+  * Added docs
+  * Fixed control with cme fix dpkg-control
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 04 Sep 2015 00:27:01 +0200
+
 lxqt-sudo (0.9.0+20150822-1) unstable; urgency=low
 
   * Initial release (Closes:#795801)
