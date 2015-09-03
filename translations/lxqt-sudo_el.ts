@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="de">
+<TS version="2.1" language="el">
 <context>
     <name>PasswordDialog</name>
     <message>
@@ -13,25 +13,25 @@
         <location filename="../passworddialog.ui" line="77"/>
         <location filename="../build/ui_passworddialog.h" line="134"/>
         <source>Command:</source>
-        <translation>Befehl:</translation>
+        <translation>Εντολή:</translation>
     </message>
     <message>
         <location filename="../passworddialog.ui" line="84"/>
         <location filename="../build/ui_passworddialog.h" line="135"/>
         <source>Password:</source>
-        <translation>Kennwort:</translation>
+        <translation>Κωδικός πρόσβασης:</translation>
     </message>
     <message>
         <location filename="../passworddialog.cpp" line="43"/>
         <source>&lt;b&gt;%1&lt;/b&gt; needs administrative privileges.
 Please enter your password.</source>
-        <translation>&lt;b&gt;%1&lt;/b&gt; benötigt root-Rechte.
-Bitte Kennwort eingeben.</translation>
+        <translation>Το &lt;b&gt;%1&lt;/b&gt; απαιτεί προνόμια διαχειριστή.
+Παρακαλώ εισαγάγετε τον κωδικό πρόσβασης.</translation>
     </message>
     <message>
         <location filename="../passworddialog.cpp" line="54"/>
         <source>Attempt #%1</source>
-        <translation>Versuch #%1</translation>
+        <translation>Προσπάθεια #%1</translation>
     </message>
 </context>
 <context>
@@ -47,13 +47,13 @@ Arguments:
   arguments      Optional arguments for command.
 
 </source>
-        <translation>Verwendung: %1 command [arguments...]
+        <translation>Χρήση: %1 εντολή [ορίσματα...]
 
-graphische Benutzeroberfläche für %2
+Περιβάλλον συστήματος υποστήριξης του %2
 
-Argumente:
-  command        auszuführender Befehl
-  arguments      Argumente zum auszuführenden Befehl
+Ορίσματα:
+  εντολή           Η εντολή προς εκτέλεση.
+  ορίσματα      Προαιρετικά ορίσματα για την εντολή.
 
 </translation>
     </message>
@@ -61,19 +61,19 @@ Argumente:
         <location filename="../main.cpp" line="69"/>
         <source>%1 version %2
 </source>
-        <translation>%1 Version %2
+        <translation>%1 έκδοση %2
 </translation>
     </message>
     <message>
         <location filename="../main.cpp" line="80"/>
         <source>%1: no command to run provided!</source>
-        <translation>%1: kein auszuführender Befehl angegeben!</translation>
+        <translation>%1: δεν παρείχατε κάποια εντολή προς εκτέλεση!</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="131"/>
         <source>Child &apos;%1&apos; process failed!
 %2</source>
-        <translation>nachgeordneter Prozess &apos;%1&apos; ist fehlgeschlagen!
+        <translation>Η θυγατρική διεργασία «%1» απέτυχε!
 %2</translation>
     </message>
 </context>
