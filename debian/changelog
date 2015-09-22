@@ -1,13 +1,14 @@
-lxqt-sudo (0.9.0+20150831-1) unstable; urgency=medium
+lxqt-sudo (0.9.0+20150908-1) experimental; urgency=medium
 
   [ Alf Gaida ]
-  * Cherry-picked upstream version 0.9.0+21050831.
+  * Cherry-picked upstream version 0.9.0+20150908.
   * Fixed .gitignore
   * Added upstream signing key and use it in watch file 
   * Added docs
-  * Fixed control with cme fix dpkg-control 
+  * Fixed control with cme fix dpkg-control
+  * Switched to experimental because of LXQt namespace change 
 
   [ ChangZhuo Chen (陳昌倬) ]
   * Initial release (Closes:#795801)
 
- -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Sat, 22 Aug 2015 10:32:52 +0800
+ -- Alf Gaida <agaida@siduction.org>  Wed, 23 Sep 2015 00:06:05 +0200
