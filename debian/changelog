@@ -1,3 +1,9 @@
+lxqt-sudo (0.10.0-2) unstable; urgency=medium
+
+  * Merge to unstable.
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Sun, 15 Nov 2015 20:58:46 +0800
+
 lxqt-sudo (0.10.0-1) experimental; urgency=medium
 
   * Cherry-picking upstream version 0.10.0.
