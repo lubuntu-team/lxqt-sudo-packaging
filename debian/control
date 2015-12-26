@@ -30,19 +30,3 @@ Description: Graphical QT frontend for plain sudo
  process with requested command (and arguments). If sudo requests user's
  password, the GUI password dialog is shown and (after submit) the password is
  provided to sudo.
-
-Package: lxqt-sudo-dbg
-Architecture: any
-Section: debug
-Priority: extra
-Depends: ${misc:Depends},
-         ${shlibs:Depends},
-         lxqt-sudo (= ${binary:Version})
-Description: Graphical QT frontend for plain sudo (debug symbols)
- lxqt-sudo is a graphical QT frontend for plain sudo(8) (for requesting
- optional password in GUI fashion).  When  invoked it simply spawns child sudo
- process with requested command (and arguments). If sudo requests user's
- password, the GUI password dialog is shown and (after submit) the password is
- provided to sudo.
- .
- This package contains debug symbols for lxqt-sudo.
