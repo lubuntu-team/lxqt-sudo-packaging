@@ -1,3 +1,3 @@
-version=3
+version=4
 opts="pgpsigurlmangle=s/$/.asc/" \
-    https://github.com/lxde/lxqt-sudo/releases .*/([\d\.]+)\.tar\.gz
+    https://github.com/lxde/lxqt-sudo/releases .*/lxqt-sudo-([\d\.]+).tar.xz

@@ -1,13 +1,13 @@
-Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: lxqt-sudo
 Source: https://github.com/lxde/lxqt-sudo
 
 Files: *
-Copyright: 2012-2015 LXQt team
+Copyright: 2015-2016 LXQt team
 License: LGPL-2.1+
 
 Files: debian/*
-Copyright: 2015      Alf Gaida <agaida@siduction.org>
+Copyright: 2015-2016 Alf Gaida <agaida@siduction.org>
            2015      Andrew Lee (李健秋) <ajqlee@debian.org>
            2015      ChangZhuo Chen (陳昌倬) <czchen@debian.org>
 License: LGPL-2.1+
@@ -18,7 +18,7 @@ License: LGPL-2.1+
  License as published by the Free Software Foundation; either
  version 2.1 of the License, or (at your option) any later version.
  .
- This library is distributed in the hope that it will be useful,
+ This program is distributed in the hope that it will be useful,
  but WITHOUT ANY WARRANTY; without even the implied warranty of
  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
  Lesser General Public License for more details.
