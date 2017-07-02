@@ -11,7 +11,7 @@ Build-Depends: debhelper (>= 10),
                libqt5svg5-dev,
                libqt5x11extras5-dev,
                libx11-dev
-Standards-Version: 3.9.8
+Standards-Version: 4.0.0
 Vcs-Browser: https://anonscm.debian.org/cgit/pkg-lxqt/lxqt-sudo.git/?h=debian/sid
 Vcs-Git: https://anonscm.debian.org/git/pkg-lxqt/lxqt-sudo.git -b debian/sid
 Homepage: https://github.com/lxde/lxqt-sudo
@@ -20,7 +20,8 @@ Package: lxqt-sudo
 Architecture: any
 Depends: ${misc:Depends},
          ${shlibs:Depends}
-Recommends: lxqt-sudo-l10n
+Recommends: lxqt-sudo-l10n,
+            lxqt-qtplugin
 Description: Graphical QT frontend for plain sudo
  lxqt-sudo is a graphical QT frontend for plain sudo(8) (for requesting
  optional password in GUI fashion).  When  invoked it simply spawns child sudo
