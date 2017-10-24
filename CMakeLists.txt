@@ -12,9 +12,12 @@ option(UPDATE_TRANSLATIONS "Update source translation translations/*.ts files" O
 option(PULL_TRANSLATIONS "Pull translations" ON)
 
 find_package(Qt5Widgets REQUIRED)
-message(STATUS "Building with Qt${Qt5Core_VERSION_STRING}")
+message(STATUS "Building with Qt${Qt5Core_VERSION}")
 
 find_package(lxqt REQUIRED)
+
+# Patch version 0
+
 
 include(LXQtCompilerSettings NO_POLICY_SCOPE)
 
