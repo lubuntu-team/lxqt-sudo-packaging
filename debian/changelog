@@ -1,14 +1,26 @@
+lxqt-sudo (0.12.0-4) unstable; urgency=medium
+
+  * Bumped compat to 11
+  * Bumped debhelper to >= 11~
+  * Bumped Standards to 4.1.4, no changes needed
+  * Changed VCS fields for salsa
+  * Changed Homepage, Source and watch to lxqt
+  * Bumped years in copyright
+  * Removed trailing whitespaces from changelog
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 28 Apr 2018 16:40:26 +0200
+
 lxqt-sudo (0.12.0-3) unstable; urgency=medium
 
   * Bumped Standards to 4.1.2
   * Removed branch from VCS fields
-  * Removed debian/gbp.conf 
+  * Removed debian/gbp.conf
 
  -- Alf Gaida <agaida@siduction.org>  Thu, 14 Dec 2017 23:17:19 +0100
 
 lxqt-sudo (0.12.0-2) unstable; urgency=medium
 
-  * Transition to unstable 
+  * Transition to unstable
 
  -- Alf Gaida <agaida@siduction.org>  Tue, 05 Dec 2017 01:26:56 +0100
 
@@ -69,7 +81,7 @@ lxqt-sudo (0.11.0-2) unstable; urgency=medium
 
 lxqt-sudo (0.10.0-3) unstable; urgency=medium
 
-  * Remove dbg package in favor of dbgsym. 
+  * Remove dbg package in favor of dbgsym.
 
  -- Alf Gaida <agaida@siduction.org>  Sun, 27 Dec 2015 00:00:04 +0100
 
@@ -104,10 +116,10 @@ lxqt-sudo (0.9.0+20150908-1) experimental; urgency=medium
   [ Alf Gaida ]
   * Cherry-picked upstream version 0.9.0+20150908.
   * Fixed .gitignore
-  * Added upstream signing key and use it in watch file 
+  * Added upstream signing key and use it in watch file
   * Added docs
   * Fixed control with cme fix dpkg-control
-  * Switched to experimental because of LXQt namespace change 
+  * Switched to experimental because of LXQt namespace change
 
   [ ChangZhuo Chen (陳昌倬) ]
   * Initial release (Closes:#795801)
