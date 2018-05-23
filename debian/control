@@ -1,5 +1,6 @@
 Source: lxqt-sudo
-Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Maintainer: Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
+XSBC-Original-Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
 Uploaders: Alf Gaida <agaida@siduction.org>,
            ChangZhuo Chen (陳昌倬) <czchen@debian.org>,
            Andrew Lee (李健秋) <ajqlee@debian.org>
@@ -12,8 +13,10 @@ Build-Depends: debhelper (>= 11~),
                libqt5x11extras5-dev,
                libx11-dev
 Standards-Version: 4.1.4
-Vcs-Browser: https://salsa.debian.org/cgit/pkg-team/lxqt-sudo
-Vcs-Git: https://salsa.debian.org/lxqt-team/lxqt-sudo.git
+Vcs-Browser: https://phab.lubuntu.me/source/lxqt-sudo/
+Vcs-Git: https://phab.lubuntu.me/source/lxqt-sudo.git
+XS-Debian-Vcs-Browser: https://salsa.debian.org/cgit/pkg-team/lxqt-sudo
+XS-Debian-Vcs-Git: https://salsa.debian.org/lxqt-team/lxqt-sudo.git
 Homepage: https://github.com/lxqt/lxqt-sudo
 
 Package: lxqt-sudo
