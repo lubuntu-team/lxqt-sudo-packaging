@@ -1,6 +1,7 @@
 lxqt-sudo (0.13.0-0ubuntu2) UNRELEASED; urgency=medium
 
   * Change Uploaders to Ubuntu uploaders.
+  * Bump Standards-version to 4.2.0, no changes needed.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Mon, 20 Aug 2018 23:41:01 -0500
 
