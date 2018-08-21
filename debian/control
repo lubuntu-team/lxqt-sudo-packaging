@@ -19,13 +19,11 @@ Homepage: https://github.com/lxqt/lxqt-sudo
 
 Package: lxqt-sudo
 Architecture: any
-Depends: ${misc:Depends},
-         ${shlibs:Depends}
-Recommends: lxqt-sudo-l10n,
-            lxqt-qtplugin
-Description: Graphical QT frontend for plain sudo
- lxqt-sudo is a graphical QT frontend for plain sudo(8) (for requesting
- optional password in GUI fashion).  When  invoked it simply spawns child sudo
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Recommends: lxqt-qtplugin, lxqt-sudo-l10n
+Description: Graphical Qt frontend for plain sudo
+ lxqt-sudo is a graphical Qt frontend for plain sudo(8) (for requesting
+ optional password in GUI fashion). When invoked it simply spawns child sudo
  process with requested command (and arguments). If sudo requests user's
  password, the GUI password dialog is shown and (after submit) the password is
  provided to sudo.
