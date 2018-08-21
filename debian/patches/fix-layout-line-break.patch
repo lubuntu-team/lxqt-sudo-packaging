@@ -1,0 +1,46 @@
+Description: Fix the layout and line break
+ In some cases, text was being cut off from the prompt and was not visible.
+Author: Tsu Jan <tsujan2000@gmail.com>
+Origin: upstream
+Bug: https://github.com/lxqt/lxqt/issues/1505
+Applied-Upstream: commit:01c23a5
+Last-Update: 2018-08-20
+--- a/passworddialog.cpp
++++ b/passworddialog.cpp
+@@ -41,7 +41,7 @@ PasswordDialog::PasswordDialog(QStringLi
+     QString cmd;
+     if (0 < argv.size())
+         cmd = argv[0];
+-    ui->descriptionL->setText(tr("<b>%1</b> needs administrative privileges.\nPlease enter your password.").arg(cmd));
++    ui->descriptionL->setText(tr("<b>%1</b> needs administrative privileges.<br>Please enter your password.").arg(cmd));
+     ui->iconL->setPixmap(QIcon::fromTheme("dialog-password").pixmap(64, 64));
+     setWindowIcon(QIcon::fromTheme("security-high"));
+ }
+--- a/passworddialog.ui
++++ b/passworddialog.ui
+@@ -10,12 +10,6 @@
+     <height>200</height>
+    </rect>
+   </property>
+-  <property name="sizePolicy">
+-   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+-    <horstretch>0</horstretch>
+-    <verstretch>0</verstretch>
+-   </sizepolicy>
+-  </property>
+   <property name="windowTitle">
+    <string>LXQt sudo</string>
+   </property>
+@@ -31,6 +25,12 @@
+      </item>
+      <item row="0" column="1" alignment="Qt::AlignVCenter">
+       <widget class="QLabel" name="descriptionL">
++       <property name="sizePolicy">
++        <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
++         <horstretch>0</horstretch>
++         <verstretch>0</verstretch>
++        </sizepolicy>
++       </property>
+        <property name="text">
+         <string/>
+        </property>
