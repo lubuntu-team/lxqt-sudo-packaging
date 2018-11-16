@@ -1,3 +1,9 @@
+lxqt-sudo (0.13.0-0ubuntu3) UNRELEASED; urgency=medium
+
+  * Leave only required variables to get into the elevated child process.
+
+ -- apt-ghetto <apt-ghetto@protonmail.com>  Wed, 14 Nov 2018 17:55:39 +0100
+
 lxqt-sudo (0.13.0-0ubuntu2) cosmic; urgency=medium
 
   * Change Uploaders to Ubuntu uploaders.
