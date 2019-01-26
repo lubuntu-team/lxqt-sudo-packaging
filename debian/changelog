@@ -1,6 +1,10 @@
-lxqt-sudo (0.13.0-0ubuntu3) UNRELEASED; urgency=medium
+lxqt-sudo (0.14.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ apt-ghetto ]
   * Leave only required variables to get into the elevated child process.
+
+  [ Simon Quigley ]
+  * New upstream release.
 
  -- apt-ghetto <apt-ghetto@protonmail.com>  Wed, 14 Nov 2018 17:55:39 +0100
 
