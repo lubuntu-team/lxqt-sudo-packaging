@@ -5,6 +5,7 @@ lxqt-sudo (0.14.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Simon Quigley ]
   * New upstream release.
+  * Bump Standards-version to 4.3.0, no changes needed.
 
  -- apt-ghetto <apt-ghetto@protonmail.com>  Wed, 14 Nov 2018 17:55:39 +0100
 
