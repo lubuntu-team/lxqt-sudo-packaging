@@ -1,3 +1,22 @@
+lxqt-sudo (0.16.0-1ubuntu2) hirsute; urgency=low
+
+  [ Raman Sarda ]
+  * New upstream version.
+  * Bump debhelper-compat requirement to 13.
+
+ -- Raman Sarda <theloudspeaker@disroot.org>  Mon, 22 Feb 2021 01:28:28 +0530
+
+lxqt-sudo (0.16.0-1) unstable; urgency=medium
+
+  [ Alf Gaida ]
+  * Switched to gbp
+  * Bumped Standards-Version to 4.4.0, no changes needed
+
+  [ Andrew Lee (李健秋) ]
+  * New upstream release. (Closes: #978214)
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Wed, 06 Jan 2021 18:17:56 +0800
+
 lxqt-sudo (0.15.0-0ubuntu1) groovy; urgency=medium
 
   * New upstream release.
@@ -8,12 +27,39 @@ lxqt-sudo (0.15.0-0ubuntu1) groovy; urgency=medium
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 04 Jun 2020 14:15:22 -0500
 
+lxqt-sudo (0.14.1-2) unstable; urgency=medium
+
+  * Set HOME right, don't strip TERM (Closes: #928941) 
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 13 May 2019 19:56:39 +0200
+
+lxqt-sudo (0.14.1-1) unstable; urgency=medium
+
+  * Cherry-picking new upstream version 0.14.1.
+  * Bumped minimum version liblxqt0-dev (>= 0.14.1~)
+  * Extended package description a bit
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 24 Feb 2019 22:25:49 +0100
+
 lxqt-sudo (0.14.1-0ubuntu1) disco; urgency=medium
 
   * New upstream release.
   * Run wrap-and-sort.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 09 Mar 2019 13:20:31 -0600
+
+lxqt-sudo (0.14.0-1) unstable; urgency=medium
+
+  * Cherry-picking new upstream version 0.14.0.
+  * Bumped Standards to 4.3.0, no changes needed
+  * Dropped d/compat, use debhelper-compat = 12, no changes needed
+  * Fixed years in d/copyright
+  * Bumped minimum version liblxqt0-dev (>= 0.14.0~)
+  * Removed obsolete PULL_TRANSLATIONS= OFF from dh_auto_configure
+  * Added l10n-package, moved from lxqt-l10n
+  * Added d/upstream/metadata
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 27 Jan 2019 19:32:15 +0100
 
 lxqt-sudo (0.14.0-0ubuntu1) disco; urgency=medium
 
@@ -25,6 +71,14 @@ lxqt-sudo (0.14.0-0ubuntu1) disco; urgency=medium
   * Add a new lxqt-sudo-l10n package.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 26 Jan 2019 00:55:00 -0600
+
+lxqt-sudo (0.13.0-1) unstable; urgency=medium
+
+  * Cherry-picking new upstream version 0.13.0.
+  * Bumped build dependency liblxqt0-dev to >= 0.13.0~
+  * Bumped year in copyright
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 25 May 2018 00:02:41 +0200
 
 lxqt-sudo (0.13.0-0ubuntu2) cosmic; urgency=medium
 
@@ -171,3 +225,4 @@ lxqt-sudo (0.9.0+20150908-1) experimental; urgency=medium
   * Initial release (Closes:#795801)
 
  -- Alf Gaida <agaida@siduction.org>  Wed, 23 Sep 2015 00:06:05 +0200
+
