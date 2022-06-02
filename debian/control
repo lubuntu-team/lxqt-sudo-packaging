@@ -33,8 +33,6 @@ Architecture: all
 Multi-Arch: foreign
 Section: localization
 Depends: qttranslations5-l10n, ${misc:Depends}
-Breaks: lxqt-sudo (<< 0.11.0)
-Replaces: lxqt-sudo (<< 0.11.0)
 Description: Language package for lxqt-sudo
  The l10n files for lxqt-sudo.
  .
