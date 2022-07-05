@@ -3,11 +3,11 @@ Upstream-Name: lxqt-sudo
 Source: https://github.com/lxqt/lxqt-sudo
 
 Files: *
-Copyright: 2015-2018 LXQt team
+Copyright: 2015-2022 LXQt team
 License: LGPL-2.1+
 
 Files: debian/*
-Copyright: 2021,      Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
+Copyright: 2021-2022, Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
            2015-2018, Alf Gaida <agaida@siduction.org>
            2015,      Andrew Lee (李健秋) <ajqlee@debian.org>
            2015,      ChangZhuo Chen (陳昌倬) <czchen@debian.org>
