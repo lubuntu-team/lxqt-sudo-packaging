@@ -6,6 +6,7 @@ lxqt-sudo (1.1.0-0ubuntu1~ppa1) jammy; urgency=medium
   * Removed obsolete "-Wl,--as-needed" linker flag.
   * Added "Rules-Requires-Root: no" to debian/control.
   * Created debian/upstream/metadata file.
+  * Removed trailing whitespace from changelog.
 
  -- Aaron Rainbolt <arraybolt3@gmail.com>  Tue, 05 Jul 2022 03:05:05 -0500
 
@@ -59,7 +60,7 @@ lxqt-sudo (0.15.0-0ubuntu1) groovy; urgency=medium
 
 lxqt-sudo (0.14.1-2) unstable; urgency=medium
 
-  * Set HOME right, don't strip TERM (Closes: #928941) 
+  * Set HOME right, don't strip TERM (Closes: #928941)
 
  -- Alf Gaida <agaida@siduction.org>  Mon, 13 May 2019 19:56:39 +0200
 
@@ -255,4 +256,3 @@ lxqt-sudo (0.9.0+20150908-1) experimental; urgency=medium
   * Initial release (Closes:#795801)
 
  -- Alf Gaida <agaida@siduction.org>  Wed, 23 Sep 2015 00:06:05 +0200
-
