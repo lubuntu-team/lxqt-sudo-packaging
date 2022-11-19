@@ -1,29 +1,15 @@
-lxqt-sudo (1.1.0-0ubuntu1) kinetic; urgency=medium
+lxqt-sudo (1.1.0-1) experimental; urgency=medium
 
   * New upstream release.
-  * Bump build dependencies.
-  * Drop old Breaks/Replaces, we're past the LTS.
+  * Removed trailing whitespace from changelog.
+  * Ran wrap-and-sort.
+  * Upstreamed packaging changes from Ubuntu, modifying the following files:
+    - control
+    - copyright
+    - rules
+    - upstream/*
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 02 Jun 2022 09:23:52 -0500
-
-lxqt-sudo (0.17.0-0ubuntu1) impish; urgency=medium
-
-  * New upstream release 0.17.0
-  * Update debian/control
-    - Bump Standards-Version to 4.5.1
-    - Use liblxqt0-dev 0.17.0
-    - Extend lxqt-sudo-l10n package description
-  * Update debian/copyright
-
- -- apt-ghetto <apt-ghetto@protonmail.com>  Sat, 14 Aug 2021 15:18:51 +0200
-
-lxqt-sudo (0.16.0-1ubuntu2) hirsute; urgency=low
-
-  [ Raman Sarda ]
-  * New upstream version.
-  * Bump debhelper-compat requirement to 13.
-
- -- Raman Sarda <theloudspeaker@disroot.org>  Mon, 22 Feb 2021 01:28:28 +0530
+ -- Aaron Rainbolt <arraybolt3@gmail.com>  Wed, 13 Jul 2022 19:57:33 -0500
 
 lxqt-sudo (0.16.0-1) unstable; urgency=medium
 
@@ -36,19 +22,9 @@ lxqt-sudo (0.16.0-1) unstable; urgency=medium
 
  -- Andrew Lee (李健秋) <ajqlee@debian.org>  Wed, 06 Jan 2021 18:17:56 +0800
 
-lxqt-sudo (0.15.0-0ubuntu1) groovy; urgency=medium
-
-  * New upstream release.
-    - Update upstream signing key.
-    - Update LXQt build dependencies.
-  * Update Standards-version to 4.5.0, no changes needed.
-  * Migrate to debhelper-compat.
-
- -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 04 Jun 2020 14:15:22 -0500
-
 lxqt-sudo (0.14.1-2) unstable; urgency=medium
 
-  * Set HOME right, don't strip TERM (Closes: #928941) 
+  * Set HOME right, don't strip TERM (Closes: #928941)
 
  -- Alf Gaida <agaida@siduction.org>  Mon, 13 May 2019 19:56:39 +0200
 
@@ -59,13 +35,6 @@ lxqt-sudo (0.14.1-1) unstable; urgency=medium
   * Extended package description a bit
 
  -- Alf Gaida <agaida@siduction.org>  Sun, 24 Feb 2019 22:25:49 +0100
-
-lxqt-sudo (0.14.1-0ubuntu1) disco; urgency=medium
-
-  * New upstream release.
-  * Run wrap-and-sort.
-
- -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 09 Mar 2019 13:20:31 -0600
 
 lxqt-sudo (0.14.0-1) unstable; urgency=medium
 
@@ -80,17 +49,6 @@ lxqt-sudo (0.14.0-1) unstable; urgency=medium
 
  -- Alf Gaida <agaida@siduction.org>  Sun, 27 Jan 2019 19:32:15 +0100
 
-lxqt-sudo (0.14.0-0ubuntu1) disco; urgency=medium
-
-  * New upstream release.
-    - Bump build dependencies.
-    - Remove reverse-applicable patches.
-  * Bump Standards-version to 4.3.0, no changes needed.
-  * Bump debhelper compat to 12, no changes needed.
-  * Add a new lxqt-sudo-l10n package.
-
- -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 26 Jan 2019 00:55:00 -0600
-
 lxqt-sudo (0.13.0-1) unstable; urgency=medium
 
   * Cherry-picking new upstream version 0.13.0.
@@ -98,24 +56,6 @@ lxqt-sudo (0.13.0-1) unstable; urgency=medium
   * Bumped year in copyright
 
  -- Alf Gaida <agaida@siduction.org>  Fri, 25 May 2018 00:02:41 +0200
-
-lxqt-sudo (0.13.0-0ubuntu2) cosmic; urgency=medium
-
-  * Change Uploaders to Ubuntu uploaders.
-  * Bump Standards-version to 4.2.0, no changes needed.
-  * Run wrap-and-sort.
-  * Fix the layout and line break so text isn't cut off.
-
- -- Simon Quigley <tsimonq2@ubuntu.com>  Mon, 20 Aug 2018 23:47:43 -0500
-
-lxqt-sudo (0.13.0-0ubuntu1) cosmic; urgency=medium
-
-  * New upstream release.
-  * Update Vcs-* and Maintainer to Lubuntu values.
-  * Update build dependencies.
-  * Update copyright.
-
- -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 22 May 2018 23:52:43 -0500
 
 lxqt-sudo (0.12.0-4) unstable; urgency=medium
 
@@ -244,4 +184,3 @@ lxqt-sudo (0.9.0+20150908-1) experimental; urgency=medium
   * Initial release (Closes:#795801)
 
  -- Alf Gaida <agaida@siduction.org>  Wed, 23 Sep 2015 00:06:05 +0200
-
