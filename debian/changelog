@@ -1,11 +1,17 @@
-lxqt-sudo (1.2.0-0ubuntu1) lunar; urgency=medium
+lxqt-sudo (1.2.0-1) unstable; urgency=medium
 
   * New upstream release.
-  * Fix the watch file, for real this time.
-  * Lubuntuify the package slightly, to make debhelper happy.
-  * Bump build dependencies in debian/control.
+  * Sort Depends in d/control.
+  * Sort d/copyright.
+  * Update d/watch for GitHub.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 18 Nov 2022 18:51:41 -0600
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Sat, 17 Dec 2022 23:58:51 +0800
+
+lxqt-sudo (1.1.0-2) unstable; urgency=medium
+
+  * Merge to unstable.
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Sat, 19 Nov 2022 09:32:56 +0800
 
 lxqt-sudo (1.1.0-1) experimental; urgency=medium
 
@@ -19,6 +25,14 @@ lxqt-sudo (1.1.0-1) experimental; urgency=medium
     - upstream/*
 
  -- Aaron Rainbolt <arraybolt3@gmail.com>  Wed, 13 Jul 2022 19:57:33 -0500
+
+lxqt-sudo (1.0.0-1) unstable; urgency=medium
+
+  * New upstream release
+  * Bumped Standards-Version to 4.6.0, no changes needed
+  * Update debian/copyright
+
+ -- S. 7 <severusseptimius7@gmail.com>  Thu, 25 Nov 2021 18:19:55 +0200
 
 lxqt-sudo (0.16.0-1) unstable; urgency=medium
 

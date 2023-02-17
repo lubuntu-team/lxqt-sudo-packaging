@@ -7,10 +7,10 @@ Copyright: 2015-2022 LXQt team
 License: LGPL-2.1+
 
 Files: debian/*
-Copyright: 2021-2022, Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
-           2015-2019, Alf Gaida <agaida@siduction.org>
-           2015,      Andrew Lee (李健秋) <ajqlee@debian.org>
-           2015,      ChangZhuo Chen (陳昌倬) <czchen@debian.org>
+Copyright: 2015-2019 Alf Gaida <agaida@siduction.org>
+           2015      Andrew Lee (李健秋) <ajqlee@debian.org>
+           2015-2022 ChangZhuo Chen (陳昌倬) <czchen@debian.org>
+           2021-2022 Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
 License: LGPL-2.1+
 
 License: LGPL-2.1+
