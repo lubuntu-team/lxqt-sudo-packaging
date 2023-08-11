@@ -1,10 +1,10 @@
-lxqt-sudo (1.3.0-0ubuntu1) UNRELEASED; urgency=medium
+lxqt-sudo (1.3.0-0ubuntu1) mantic; urgency=medium
 
   * New upstream release.
   * Bump build dependencies.
   * Install new lxqtdoas binary.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 10 Aug 2023 16:39:34 -0500
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 11 Aug 2023 09:51:31 -0500
 
 lxqt-sudo (1.2.0-1ubuntu1) lunar; urgency=medium
 
