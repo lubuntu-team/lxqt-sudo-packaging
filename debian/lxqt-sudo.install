@@ -1,6 +1,8 @@
+usr/bin/lxdoas
 usr/bin/lxqt-sudo
 usr/bin/lxsu
 usr/bin/lxsudo
+usr/share/man/man1/lxdoas.1
 usr/share/man/man1/lxqt-sudo.1
 usr/share/man/man1/lxsu.1
 usr/share/man/man1/lxsudo.1
