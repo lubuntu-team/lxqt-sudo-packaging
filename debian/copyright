@@ -3,7 +3,7 @@ Upstream-Name: lxqt-sudo
 Source: https://github.com/lxqt/lxqt-sudo
 
 Files: *
-Copyright: 2015-2022 LXQt team
+Copyright: 2015-2023 LXQt team
            2015-2018 Palo Kisa <palo.kisa@gmail.com>
 License: LGPL-2.1+
 
