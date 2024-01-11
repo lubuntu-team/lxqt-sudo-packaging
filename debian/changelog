@@ -1,3 +1,11 @@
+lxqt-sudo (1.4.0-0ubuntu2) noble; urgency=medium
+
+  * Patch in bidirectional communication support (see
+    https://github.com/lxqt/lxqt-sudo/pull/210)
+  * Updated copyright file.
+
+ -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Thu, 11 Jan 2024 19:26:41 +0000
+
 lxqt-sudo (1.4.0-0ubuntu1) noble; urgency=medium
 
   * New upstream release.
