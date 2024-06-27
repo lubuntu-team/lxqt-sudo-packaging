@@ -2,6 +2,7 @@ lxqt-sudo (2.0.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release.
   * Update copyright file.
+  * Drop enable-bidirectional-communication.patch, applied upstream.
 
  -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Thu, 27 Jun 2024 16:17:43 -0500
 
