@@ -4,6 +4,7 @@ lxqt-sudo (2.0.0-0ubuntu1) UNRELEASED; urgency=medium
   * Update copyright file.
   * Drop enable-bidirectional-communication.patch, applied upstream.
   * Bump Standards-Version to 4.7.0, no changes necessary.
+  * Adjust dependencies.
 
  -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Thu, 27 Jun 2024 16:17:43 -0500
 
