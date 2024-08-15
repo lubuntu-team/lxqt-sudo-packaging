@@ -1,4 +1,4 @@
-lxqt-sudo (2.0.0-0ubuntu1~ppa1) oracular; urgency=medium
+lxqt-sudo (2.0.0-0ubuntu1) oracular; urgency=medium
 
   * New upstream release.
   * Update copyright file.
@@ -6,7 +6,7 @@ lxqt-sudo (2.0.0-0ubuntu1~ppa1) oracular; urgency=medium
   * Bump Standards-Version to 4.7.0, no changes necessary.
   * Adjust dependencies.
 
- -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Thu, 27 Jun 2024 16:17:43 -0500
+ -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Thu, 15 Aug 2024 16:43:15 -0500
 
 lxqt-sudo (1.4.0-0ubuntu2) noble; urgency=medium
 
