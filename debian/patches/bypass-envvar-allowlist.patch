@@ -8,7 +8,7 @@ Last-Update: 2023-10-11
 This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
 --- a/sudo.cpp
 +++ b/sudo.cpp
-@@ -83,6 +83,7 @@ namespace
+@@ -84,6 +84,7 @@ namespace
                      "    -s|--su        Use %3(1) as backend.\n"
                      "    -d|--sudo      Use %2(8) as backend.\n"
                      "    -a|--doas      Use %4(1) as backend.\n"
@@ -16,7 +16,7 @@ This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
                      "  command          Command to run.\n"
                      "  arguments        Optional arguments for command.\n\n").arg(app_master).arg(sudo_prog).arg(su_prog).arg(doas_prog);
          if (!err.isEmpty())
-@@ -113,8 +114,13 @@ namespace
+@@ -114,8 +115,13 @@ namespace
      };
      assert_helper h;
  
@@ -31,7 +31,7 @@ This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
          std::cerr << LXQTSUDO << ": Stripping child environment except for: ";
          std::ostringstream left_env_params;
          std::copy(ALLOWED_VARS, ALLOWED_END - 1, std::ostream_iterator<const char *>{left_env_params, ","});
-@@ -195,6 +201,10 @@ int Sudo::main()
+@@ -196,6 +202,10 @@ int Sudo::main()
          {
              mBackend = BACK_DOAS;
              mArgs.removeAt(0);
@@ -42,7 +42,7 @@ This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
          }
      }
      //any other arguments we simply forward to su/sudo
-@@ -286,11 +296,11 @@ void Sudo::child()
+@@ -287,11 +297,13 @@ void Sudo::child()
      switch (mBackend)
      {
          case BACK_SUDO:
@@ -54,12 +54,14 @@ This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
 +            if(!mPreserveEnv) {
 +                preserve_env_param = "--preserve-env=";
 +                preserve_env_param += env_workarounds(mPreserveEnv);
-+                *(param_arg++) = preserve_env_param.c_str(); //preserve environment
++            } else {
++                preserve_env_param = "--preserve-env";
 +            }
++            *(param_arg++) = preserve_env_param.c_str();
              *(param_arg++) = "/bin/sh";
              break;
          case BACK_DOAS:
-@@ -298,7 +308,7 @@ void Sudo::child()
+@@ -299,7 +311,7 @@ void Sudo::child()
              [[fallthrough]];
          case BACK_SU:
          case BACK_NONE:

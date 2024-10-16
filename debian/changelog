@@ -1,3 +1,9 @@
+lxqt-sudo (2.0.0-0ubuntu2) plucky; urgency=medium
+
+  * Update the patch to pass through env vars.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 16 Oct 2024 17:09:37 -0500
+
 lxqt-sudo (2.0.0-0ubuntu1) oracular; urgency=medium
 
   * New upstream release.
