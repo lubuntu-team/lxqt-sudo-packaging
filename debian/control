@@ -10,9 +10,9 @@ Section: x11
 Priority: optional
 Build-Depends: debhelper-compat (= 13),
                libkf6windowsystem-dev,
-               liblxqt2-dev (>= 1.4.0),
+               liblxqt2-dev (>= 2.1.0),
                libx11-dev,
-               qt6-svg-dev
+               qt6-svg-dev (>= 6.6.0)
 Standards-Version: 4.7.0
 Vcs-Browser: https://git.lubuntu.me/Lubuntu/lxqt-sudo-packaging
 Vcs-Git: https://git.lubuntu.me/Lubuntu/lxqt-sudo-packaging.git
