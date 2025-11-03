@@ -24,7 +24,7 @@ Rules-Requires-Root: no
 Package: lxqt-sudo
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Recommends: lxqt-qtplugin, lxqt-sudo-l10n
+Recommends: lxqt-sudo-l10n
 Description: Graphical Qt frontend for plain sudo
  lxqt-sudo is a graphical Qt frontend for plain sudo(8) (for requesting
  optional password in GUI fashion). When invoked it simply spawns child sudo

@@ -1,3 +1,11 @@
+lxqt-sudo (2.2.0-0ubuntu2) resolute; urgency=medium
+
+  * Drop superfluous recommends on lxqt-qtplugin. Makes lxqt-sudo usable
+    on flavours other than Lubuntu without pulling in significant other
+    parts of lxqt onto images.
+
+ -- Rik Mills <rikmills@kde.org>  Mon, 03 Nov 2025 15:40:14 +0000
+
 lxqt-sudo (2.2.0-0ubuntu1) questing; urgency=medium
 
   * New upstream release.
