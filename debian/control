@@ -19,7 +19,6 @@ Vcs-Git: https://git.lubuntu.me/Lubuntu/lxqt-sudo-packaging.git
 Debian-Vcs-Browser: https://salsa.debian.org/cgit/pkg-team/lxqt-sudo
 Debian-Vcs-Git: https://salsa.debian.org/lxqt-team/lxqt-sudo.git
 Homepage: https://github.com/lxqt/lxqt-sudo
-Rules-Requires-Root: no
 
 Package: lxqt-sudo
 Architecture: any
