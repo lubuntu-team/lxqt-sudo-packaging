@@ -7,7 +7,7 @@ Uploaders: Alf Gaida <agaida@siduction.org>,
            Simon Quigley <tsimonq2@debian.org>,
            Aaron Rainbolt <arraybolt3@gmail.com>
 Section: x11
-Build-Depends: debhelper-compat (= 13),
+Build-Depends: debhelper-compat (= 14),
                libkf6windowsystem-dev,
                liblxqt2-dev (>= 2.5.0),
                libx11-dev,
@@ -21,7 +21,6 @@ Homepage: https://github.com/lxqt/lxqt-sudo
 
 Package: lxqt-sudo
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: lxqt-sudo-l10n
 Description: Graphical Qt frontend for plain sudo
  lxqt-sudo is a graphical Qt frontend for plain sudo(8) (for requesting
@@ -34,7 +33,7 @@ Package: lxqt-sudo-l10n
 Architecture: all
 Multi-Arch: foreign
 Section: localization
-Depends: qt6-translations-l10n, ${misc:Depends}
+Depends: qt6-translations-l10n
 Description: Language package for lxqt-sudo
  The l10n files for lxqt-sudo.
  .
